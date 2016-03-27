@@ -11,10 +11,31 @@ console.log("el equipo es:" +equipo);
 var clave = prompt("Hola Usuario, Ingrese su clave en minusculas!");
 console.log("La longitud de la clave es: " + clave.length);
 console.log("TA-DA!!! Su clave es: " + clave.toUpperCase());
-console.log("El valor original de la clave es: " +  clave);*/
-
-
-/*console.log("fin de programa");*/
-
+console.log("El valor original de la clave es: " +  clave);
 var nombre= prompt("Cual es tu nombre");
-document.write ("<h1> su nombre es:"  +nombre+"</h1>");
+document.write ("<h1> su nombre es:"  +nombre+"</h1>");*/
+
+/****************CALCULADORA DEL TIEMPO************************/
+
+/*var edad= prompt("Cuantos años tienes");
+var segundosPorMinuto = 60;
+var minutosPorHora = 60;
+var horasPorDia = 24;
+var segundosPorDia = segundosPorMinuto * minutosPorHora * horasPorDia;
+var segundosVividos= edad * segundosPorDia;
+
+document.write("<h1>Calculadora del Tiempo</h1><p>Hay " +segundosPorDia	+ " en un dia</p>");
+document.write (" <h2>su edad en segundos es:" +segundosVividos+"</h2>");
+
+/************************PELICULAS Y SERIES ***************************************/
+
+
+/*var peliculasVistas = prompt("Cuantas peliculas haz visto este mes?");
+var seriesVistas = prompt("Cuantas series has visto este mes?");
+var tiempoPantalla = parseInt(peliculasVistas) + parseInt(seriesVistas);
+alert('Wow! Has visto ' + tiempoPantalla + " veces minimo la pantalla.");*/
+
+var dado = Math.floor(Math.random() * 6) +1;
+alert("Dado dice:" + dado);
+console.log("fin de programa");
+

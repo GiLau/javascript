@@ -59,7 +59,7 @@ else{
 
 
 			/************** DESAFIO  **************
-*******************numero al azar entre 2 limites con errores**************/
+*******************numero al azar entre 2 limites con errores**************
 
 function numAzar(lim1, lim2) 
 {
@@ -74,8 +74,7 @@ function numAzar(lim1, lim2)
 var lim1= parseInt(prompt("Ingrese limite superior : "));
 var lim2 = parseInt(prompt("ingrese limite inferior : "));
 /*alert("Su numero al azar es: " + numAzar(parseInt(lim2), parseInt(lim1)));*/
-/***************** agregando ciclos ************/
-
+/***************** agregando ciclos ************
 var contador = 0;
 
 while(contador<10)
@@ -84,7 +83,7 @@ var randomico= numAzar(parseInt(lim2), parseInt(lim1));
 document.write(randomico + " , ");
 contador++;
 }
-
+*/
 
 /***************************  CICLOS  ********************************
 
@@ -92,3 +91,26 @@ var lim1= parseInt(prompt("Ingrese limite superior : "));
 var lim2 = parseInt(prompt("ingrese limite inferior : "));*/
 
 
+/*******************DESAFIO FINAL*****************/
+
+function numAzar() 
+{
+	var num = Math.floor(Math.random() * 100) + 1;
+	return num;
+}
+var numA = numAzar();
+
+var contando = 0;
+while(true)
+{
+	contando = contando + 1;
+	var numC = numAzar();
+	if(numA === numC)
+	{
+		alert("El numero al Azar es: " + numA );
+		alert("El numero adivinado por la computadora es: " + numC);
+	break;
+
+	}
+}
+alert("el numero de intentos es: " + contando);

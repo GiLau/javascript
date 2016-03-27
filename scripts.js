@@ -35,42 +35,49 @@ var seriesVistas = prompt("Cuantas series has visto este mes?");
 var tiempoPantalla = parseInt(peliculasVistas) + parseInt(seriesVistas);
 alert('Wow! Has visto ' + tiempoPantalla + " veces minimo la pantalla.");*/
 
-/*var dado = Math.floor(Math.random() * 6) +1;
+
+/***************** DADOS DENTRO DE FUNCION*************
+var dado = Math.floor(Math.random() * 6) +1;
 alert("Dado dice:" + dado);
 var numero= prompt("Ingrese un numero:");
 var numero = Math.floor(Math.random() * numero) +1;
-alert ("numero dice:" + numero);*/
+alert ("numero dice:" + numero);
 
 /*ADIVINANDO NUMERO*/
 var limiteSuperior = 5;
+var ganador= false;
 var numero= prompt("Ingrese un numero del 1 al " + limiteSuperior +": ");
 var valorAdivinar= Math.floor(Math.random() *  limiteSuperior) +1;
+document.write("<h1>Adivina el Numero!</h1>");
 if (parseInt(numero) === valorAdivinar)
 {
-	alert("has adivinado");
+	ganador = true;
 	}
 else if (parseInt(numero) > valorAdivinar){
 		alert("el numero que ingresaste es mayor que el numero a adivinar" );
 		var numero= prompt("Ingrese un numero del 1 al " + limiteSuperior +": ");
-		if (parseInt(numero) === valorAdivinar){
-		alert("Has ganado");
+		if (parseInt(numero) === valorAdivinar)
+		{
+		ganador =true;
 		}
-	
 	}
 else if (parseInt(numero) < valorAdivinar)
 		{
 		alert("el numero que ingresaste es menor que el numero a adivinar" );
 		var numero= prompt("Ingrese un numero del 1 al " + limiteSuperior +": ");
-		if (parseInt(numero) === valorAdivinar){
-		alert("Has ganado");
-
+		if (parseInt(numero) === valorAdivinar)
+		{
+		ganador = true;
 		}
-		else{	alert("has perdido");}
-		
-		
 	}
 
 
-	
+if (ganador)  {
+	alert("has ganado");
+}
+else{
+	alert("has perdido");
+}
+
 console.log("fin de programa");
 

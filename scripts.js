@@ -43,7 +43,7 @@ var numero= prompt("Ingrese un numero:");
 var numero = Math.floor(Math.random() * numero) +1;
 alert ("numero dice:" + numero);
 
-/*ADIVINANDO NUMERO*/
+/*ADIVINANDO NUMERO
 var limiteSuperior = 5;
 var ganador= false;
 var numero= prompt("Ingrese un numero del 1 al " + limiteSuperior +": ");
@@ -79,5 +79,6 @@ else{
 	alert("has perdido");
 }
 
-console.log("fin de programa");
+console.log("fin de programa");*/
+
 

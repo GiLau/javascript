@@ -1,13 +1,13 @@
-//
+/**
 var productos = ["cuaderno", "lapiz" , "esferos" , "carpetas" , "sacapuntas" , "borrador" , "hojas"];
 while (true)
 {
-	var nomProductos= (prompt("Ingrese S para salir o indique el producto que buscas?:"));
-	if(nomProductos=="S")
+	var nomProductos= (prompt("Ingrese s para salir o indique el producto que buscas?:"));
+	if(nomProductos=="s")
 	{
 		break;
 	}
-	else if (nomProductos=="L")
+	else if (nomProductos=="l")
 	{
 		document.write(productos.join(" - "));
 	}
@@ -24,3 +24,4 @@ while (true)
 		}
 	}
 }
+*/

@@ -91,9 +91,9 @@ var lim1= parseInt(prompt("Ingrese limite superior : "));
 var lim2 = parseInt(prompt("ingrese limite inferior : "));*/
 
 
-/*******************DESAFIO FINAL*****************/
+/*******************DESAFIO FINAL****************
 
-function numAzar() 
+///*function numAzar() 
 {
 	var num = Math.floor(Math.random() * 100) + 1;
 	return num;
@@ -113,4 +113,17 @@ while(true)
 
 	}
 }
-alert("el numero de intentos es: " + contando);
+alert("el numero de intentos es: " + contando);*/
+////****** ciclo for ***************/////////
+
+/*console.log("inicio de Programa");
+var html = "";
+for(var i = 1;i<=10;i++)
+{
+	html += "<div>" + i + "</div>";
+}
+document.write(html);
+console.log("programa completado")**/
+
+
+

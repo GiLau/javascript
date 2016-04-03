@@ -1,4 +1,4 @@
-console.log("Inicio de programa");
+/*console.log("Inicio de programa");*/
 /*alert("Hola JavaScript");*/
 /*var nombre= prompt("Cual es tu nombre");
 document.write ("<h1> su nombre es:"  +nombre+"</h1>");

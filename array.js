@@ -28,7 +28,7 @@ playlist.push(["Tu poeta" , "alex campos"]);
 printList(playlist);*/
 
 
-/***** arreglo dentro de otro arreglo**////
+/***** arreglo dentro de otro arreglo**
 
 var preguntas = [];
 preguntas.push(["Quien se comio a la abuelita de caperucita?" , "el lobo"]);
@@ -137,4 +137,7 @@ for(var i=0; i<preguntas.length; i++)
 var html= "<h1> Pregunta Pregunton </h1>";
 html += "<h2> Aqui el resultado de sus respuestas </h2>";
 html += imprimirCuestionario();
-printHTML(html);
+printHTML(html);*/
+
+
+
